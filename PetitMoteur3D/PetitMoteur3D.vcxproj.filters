@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9d854d77-6622-457e-b6e6-7ac96d751df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\PetitMoteur3D">
+      <UniqueIdentifier>{3c45437b-c0b6-404b-8a3d-cf2e1fef94cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\PetitMoteur3D">
+      <UniqueIdentifier>{e6240d6d-174c-4c7c-b5af-4d4ca5e18dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Managers">
+      <UniqueIdentifier>{ec5c3634-e481-4d03-946d-082404bc3444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Managers">
+      <UniqueIdentifier>{8959d5aa-8d6e-4b4a-988d-c0fab1782fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Physx">
+      <UniqueIdentifier>{c125c16b-d5b1-4284-a46e-9675fa8d8f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Physx">
+      <UniqueIdentifier>{5d681aa7-e777-4cc7-8e15-a88b352c9771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components">
+      <UniqueIdentifier>{7e20f148-9969-4f58-8876-fac6da342c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Components">
+      <UniqueIdentifier>{dfc25905-2178-4fcc-b035-af6e3c725e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Objects">
+      <UniqueIdentifier>{12a1a628-1b54-4e84-ba12-9d83cf65b02b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Objects">
+      <UniqueIdentifier>{d5b02d46-c19f-44a3-bdc5-e8695aeccf59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Scenes">
+      <UniqueIdentifier>{ed7b1839-cdde-47b4-9dc0-464566066dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Scenes">
+      <UniqueIdentifier>{56ea63cb-6f2d-4091-8533-ac8eb7d7ee59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Dispositif.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="DispositifD3D11.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="GestionnaireDeTexture.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoDispositif.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Moteur.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="MoteurWindows.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="PetitMoteur3D.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Fichiers sources\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DIManipulateur.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeurOBJ.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="CTerrain.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sommet.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjetMesh.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Bloc.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Objet3D.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Horloge.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainObject.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Fichiers sources\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysXEngine.cpp">
+      <Filter>Fichiers sources\Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Fichiers sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Skiing.cpp">
+      <Filter>Fichiers sources\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="GestionnaireDeChargeur.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticGameObject.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Roche.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremplin.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="AfficheurSprite.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="AfficheurTexte.cpp">
+      <Filter>Fichiers sources\PetitMoteur3D</Filter>
+    </ClCompile>
+    <ClCompile Include="UIContainer.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Poteau.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Cabine.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Chalet.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Barriere.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Tunnel.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BonhommeNeige.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Luge.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrivee.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Pingouin.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicObject.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Fichiers sources\Managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Dispositif.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="DispositifD3D11.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="GestionnaireDeTexture.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoDispositif.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Moteur.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="MoteurWindows.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Objet3D.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="PetitMoteur3D.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Fichiers d%27en-tête\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DIManipulateur.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Chargeur.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeurOBJ.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="CTerrain.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Bloc.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sommet.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjetMesh.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="PxContactModifyCallback.h">
+      <Filter>Fichiers d%27en-tête\Physx</Filter>
+    </ClInclude>
+    <ClInclude Include="PxSimulationEventCallback.h">
+      <Filter>Fichiers d%27en-tête\Physx</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Fichiers d%27en-tête\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Horloge.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainObject.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysXEngine.h">
+      <Filter>Fichiers d%27en-tête\Physx</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.hpp">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Fichiers d%27en-tête\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneDef.h">
+      <Filter>Fichiers d%27en-tête\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Skiing.h">
+      <Filter>Fichiers d%27en-tête\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Fichiers d%27en-tête\Physx</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="GestionnaireDeChargeur.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticGameObject.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Roche.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Tremplin.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="AfficheurSprite.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="AfficheurTexte.h">
+      <Filter>Fichiers d%27en-tête\PetitMoteur3D</Filter>
+    </ClInclude>
+    <ClInclude Include="UIContainer.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Poteau.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Cabine.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Chalet.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Barriere.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tunnel.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BonhommeNeige.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Luge.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrivee.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Pingouin.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicObject.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Fichiers d%27en-tête\Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PetitMoteur3D.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="PetitMoteur3D.ico">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="resources\MiniPhong.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="resources\MiniPhongSM.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="resources\MiniPhongSkybox.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="resources\Sprite.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="resources\MiniPhongMesh.fx" />
+    <FxCompile Include="resources\MiniPhongSkybox.fx" />
+  </ItemGroup>
+</Project>
